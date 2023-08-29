@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: url(./images/castelo-infinito-1.jpg);
+    backdrop-filter: brightness(0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.containers {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 55px;
+}
+
+.container-1 {
+    max-width: 320px;
+    margin: 10vh auto;
+    background-color: #141924ee;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 5px rgb(0,0,0,0.40);
+    cursor: default;
+}
+
+.image-logo {
+    width: 286px;
+    border-radius: 10px;
+    margin-top: 2px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.image-logo:hover {
+    transform: scale(1.050);
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sobre {
+    font-size: 16px;
+    color:#7e93b2;
+    line-height: 24px;
+    font-weight: 200;
+    white-space: normal;
+}
+
+.value {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.eth {
+    display: flex;
+    align-items: center;
+    color: hsl(0, 65%, 54%);
+    gap: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+}
+
+.text-value {
+    font-weight: bold;
+}
+
+.text-value::after {
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: hsl(0, 65%, 54%);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.eth:hover ::after{
+    width: 100%;
+}
+
+.relogio {
+    transition: 0.9s ease-in-out;
+    cursor: pointer;
+}
+
+.relogio:hover {
+    transform: rotate(-360deg);
+}
+
+.time {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 94px;
+    
+}
+
+
+.days-left {
+    color: #b4c6e6;
+    font-size: 14px;
+    white-space: nowrap;
+    font-weight: 100;
+}
+
+.avatar {
+    margin-top: 20px;
+    border-top: 1px solid #819dcc;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #819dcc;
+}
+
+.avatar-img {
+    width: 40px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+
+.name {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.created {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
