@@ -1,4 +1,4 @@
-# LUA SUPERIORES - DEMON SLAYER🌑🩸
+# LUAS SUPERIORES - DEMON SLAYER🌑🩸
 Criei uma página com Card de alguns Lua Superiores do anime Demon Slayer, utilizando somente HTML e CSS, e utilizando a base em um teste do Frontend Mentor.
 
 ![Lua Superiores - Card](https://github.com/guiaugustoxy/guardioes-da-galaxia/assets/137638499/6f33a76f-5c75-4d51-bb80-2c255f6c8b3c)
