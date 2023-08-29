@@ -19,4 +19,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Você pode visualizar o projeto dos Luas Superiores através [DESSE LINK](https://guiaugustoxy.github.io/lua-superiores/)
+Você pode visualizar o projeto dos Luas Superiores através [DESSE LINK](https://guiaugustoxy.github.io/luas-superiores/)
