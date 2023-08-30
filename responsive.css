@@ -1,5 +1,14 @@
 @media screen and (max-width: 450px) {
 
+ body {
+    background: url(./images/castelo-infinito-1.jpg);
+    backdrop-filter: brightness(0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}   
+
 .containers {
     display: inline-block;
     flex-direction: column;
